@@ -50,3 +50,53 @@ div#redes
 	border: 1px solid yellow;
 	width: 32px;
 }
+header
+{
+	/*height: 192px;*/
+	width: 790px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+header figure{
+	display: inline-block;
+}
+header figure img
+{
+	width: 310px;
+	margin: 30px 0px 30px 0px;
+	
+	border: 1px solid red;
+}
+header div#buscador
+{
+	border:1px solid red;
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	margin: 40px 0px 0px 0px;
+}
+nav#menu{
+	border: 1px solid red;
+	width: 790px;
+	margin: 0 auto;
+}
+nav#menu ul{
+	border: 1px solid green;
+
+}
+
+nav#menu ul li{
+	display: inline-block;
+	margin: 0px;	
+	
+}
+nav#menu ul li a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.7em;
+	background-color:#176990; 
+	display: block;
+	color: white;
+	margin: 0px;
+
+} 
