@@ -49,7 +49,7 @@ div#centrar
 {
 	background-color: #ebebeb;
 	border: 1px solid red;
-	height: 2200px;
+	height: 1360px;
 	margin: 0 auto;
 	width: 1100px;
 }
@@ -249,4 +249,74 @@ a#vermas{
 }
 #calendario img{
 	width: 200px;
+}
+div#videos{
+	width: 100%;
+	/*border: 1px solid red;*/
+	background: url("../img/verde.png") no-repeat;
+	height: 300px;
+}
+div.centro{
+	width: 1000px;
+	height: 280px;
+	border: 1px solid red;
+	margin:0 auto;
+}
+div#masVisto{
+	width: 100%;
+	/*border: 1px solid red;*/
+	background: url("../img/azul.png");
+	height: 300px;
+	margin-top: -35px;
+}
+p.textoVi{
+	margin: 70px 10px 10px 10px;
+	border: 1px solid blue;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	vertical-align: top;
+}
+div.centro>img{
+	border: 1px solid red;
+	margin:40px  0px 0px 80px;
+	width: 780px;
+}
+#span{
+	display: inline-block;
+	width: 6px;
+	background-color: white;
+	height: 18px;
+	margin-right: 15px;
+}
+div#visto{
+	border: 1px solid red;
+	width: 900px;
+	height: 150px;
+	margin:0 auto;
+}
+div.vista{
+	display: inline-block;
+	width: 200px;
+	border:1px solid red;
+	height: 120px;
+	vertical-align: top;
+	margin-left: 5px;
+}
+ul.lista{
+	list-style: none;
+	margin-left: -40px;
+}
+ul.lista li{
+	color: white;
+	border: 1px solid gray;
+}
+div#view{
+	margin-top: -50px;
+	height: 180px;
+	width: 220px;
+}
+p#texto{
+	color: white;
+	font-weight: bold;
 }
