@@ -1,4 +1,7 @@
+
 /*Branch master*/
+
+
 body
 {
 	font-size: 16px;	
@@ -14,7 +17,7 @@ aside#arriba
 aside #arriba_center
 {
 	width: 780px;
-	border:1px solid green;
+	/*border:1px solid green;*/
 	margin: 0 auto;
 	height: 50px;
 
@@ -38,28 +41,21 @@ a#home
 div#redes
 {
 	float: right;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin:8px 10px 0px 0px;
 }
 #rss img, #twitter img , #face img, #utube img{
 	display: inline-block;
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 	width: 32px;
 }
-div#centrar
-{
-	background-color: #ebebeb;
-	border: 1px solid red;
-	height: 1360px;
-	margin: 0 auto;
-	width: 1100px;
-}
+
 header
 {
 	/*height: 192px;*/
 	width: 790px;
 	margin: 0 auto;
-	border: 1px solid green;
+/*	border: 1px solid green;*/
 }
 header figure{
 	display: inline-block;
@@ -69,25 +65,25 @@ header figure img
 	width: 310px;
 	margin: 30px 0px 30px 0px;
 	
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 header div#buscador
 {
-	border:1px solid red;
+	/*border:1px solid red;*/
 	display: inline-block;
 	float: right;
 	vertical-align: top;
 	margin: 40px 0px 0px 0px;
 }
 nav#menu{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 900px;
 	margin: 0 auto;
-	height: 70px;
+	/*height: 70px;*/
 }
 nav#menu ul{
-	border: 1px solid green;
-	margin-left: 12px;
+	/*border: 1px solid green;*/
+	margin: 4px 0px -2px 15px; /*  agregar al master */
 }
 
 nav#menu ul li{
@@ -101,15 +97,17 @@ nav#menu ul li a{
 	display: block;
 	color: white;
 	padding: 18px;
-	border: 1px solid yellow;
+	border: 1px solid white;
 } 
 div#slider{
-	width: 1100px;
-	border: 1px solid red;
+	width: 100%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+
 
 }
 div#slider img{
-	width: 1100px;
+	width: 100%;
 }
 section#contenido{
 	width: 1010px;
@@ -120,7 +118,7 @@ section#contenido{
 div#izq, div#der{
 	display: inline-block;
 	
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	vertical-align: top;	
 }
 div#izq{
@@ -128,7 +126,7 @@ div#izq{
 	height: 720px;
 }
 div#der{
-	height: 630px;
+	height: 650px;
 	width: 245px;
 	background-color: #e0dedc;
 	margin-top: 15px;
@@ -151,7 +149,7 @@ span.linea{
 
 }
 div#titulo{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	width: 710px;
 	margin:0 auto;
 }
@@ -168,7 +166,7 @@ div#titulo{
 }
 .notiTexto{
 	width: 228px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	display: inline-block;
 	margin-right: 10px;
 
@@ -177,11 +175,11 @@ div#titulo{
 .notiTexto>p{
 	color: #666;
 	font-weight: bold;
-	background-color: red;
+	/*background-color: red;*/
 }
 .notiTexto > span{
 	text-align:justify;
-	background-color: red;
+	/*background-color: red;*/
 	display: block;
 	color: #666;
 }
@@ -203,7 +201,7 @@ p#textoEven{
 a#vermas{
 	background-color: white;
 	color: #666;
-	border:1px solid #666;
+	/*border:1px solid #666;*/
 	border-radius: 3px;
 	text-decoration: none;
 	padding: 4px;
@@ -214,7 +212,7 @@ a#vermas{
 }
 .listaEven{
 	margin: 10px 0px 10px 10px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	width: 208px;
 	height: 100px;
 }
@@ -233,7 +231,7 @@ a#vermas{
 }
 
 .va1,.va2{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	display: inline-block;
 }
 .va1{
@@ -260,7 +258,7 @@ div#videos{
 div.centro{
 	width: 1000px;
 	height: 280px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin:0 auto;
 }
 div#masVisto{
@@ -272,14 +270,14 @@ div#masVisto{
 }
 p.textoVi{
 	margin: 70px 10px 10px 10px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	display: inline-block;
 	color: white;
 	font-weight: bold;
 	vertical-align: top;
 }
 div.centro>img{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin:40px  0px 0px 80px;
 	width: 780px;
 }
@@ -291,7 +289,7 @@ div.centro>img{
 	margin-right: 15px;
 }
 div#visto{
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	width: 900px;
 	height: 150px;
 	margin:0 auto;
@@ -299,7 +297,7 @@ div#visto{
 div.vista{
 	display: inline-block;
 	width: 200px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	height: 120px;
 	vertical-align: top;
 	margin-left: 5px;
@@ -310,8 +308,25 @@ ul.lista{
 }
 ul.lista li{
 	color: white;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
+	margin-bottom: 10px;
+	padding: 5px;
 }
+
+ul.lista li span.guia{
+	/*background-color:red;*/
+	vertical-align: top; 
+	font-size: 14px;
+	margin-left: 9px;
+}
+ul.lista img{
+	width: 22px;
+}
+img.imgv, span.guia{
+	display: inline-block;
+
+}
+
 div#view{
 	margin-top: -50px;
 	height: 180px;
@@ -320,4 +335,23 @@ div#view{
 p#texto{
 	color: white;
 	font-weight: bold;
+}
+
+footer{
+	background-color: #910b26;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid white;
+}
+footer>p{
+	color: white;
+	width: 1000px;
+	margin: 0 auto;
+	/*border: 1px solid yellow;*/
+	text-align: center;
+	margin-top: 20px;
+}
+div#cambio{
+	/*border: 3px solid red;*/
+
 }
