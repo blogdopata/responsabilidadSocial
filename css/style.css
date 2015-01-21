@@ -355,3 +355,8 @@ div#cambio{
 	/*border: 3px solid red;*/
 
 }
+/* QUIENES SOMOS*/
+img.banner{
+	margin: 15px 0 25px 0;
+	width: 100%;
+}
