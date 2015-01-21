@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 </head>
 <body>
 <aside id="arriba">
@@ -29,7 +30,7 @@
 
 <nav id="menu">
 	<ul>
-		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="#" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="#" alt="#">PROYECTOS</a></li><li><a href="#" alt="#">PUBLICACIONES</a></li><li><a href="#" alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="#" alt="#">CONTÁCTENOS</a></li>
+		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="index.php?pag=quehacemos" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="#" alt="#">PROYECTOS</a></li><li><a href="#" alt="#">PUBLICACIONES</a></li><li><a href="#" alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="#" alt="#">CONTÁCTENOS</a></li>
 	</ul>
 </nav>
 
@@ -47,7 +48,7 @@
                                 include("inicio.php");
 
                             }?>
-</div> <!-- FIN DIV del PHP -->
+</div> <!-- FIN DIV cambio -->
 
         <!-- lo mas visto -->
         <div id="masVisto">
@@ -116,6 +117,7 @@
 	<footer>
 		<p> © Copyright 2015 Universidad San Martin de Porres. Todos los derechos reservados</p>
 	</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </body>
 </html>

@@ -1,11 +1,17 @@
 
 /*Branch master*/
 
+@font-face {
+  font-family: NewLetra;
+  src: url(../font/Quattrocento-Regular.otf);
+}
+
 
 body
 {
 	font-size: 16px;	
 	background-color: #ebebeb;
+	font-family: NewLetra;
 }
 
 aside#arriba
@@ -77,13 +83,13 @@ header div#buscador
 }
 nav#menu{
 	/*border: 1px solid red;*/
-	width: 900px;
+	width: 1100px;
 	margin: 0 auto;
 	/*height: 70px;*/
 }
 nav#menu ul{
 	/*border: 1px solid green;*/
-	margin: 4px 0px -2px 15px; /*  agregar al master */
+	margin: 4px 0px -2px 50px; /*  agregar al master */
 }
 
 nav#menu ul li{
@@ -98,6 +104,7 @@ nav#menu ul li a{
 	color: white;
 	padding: 18px;
 	border: 1px solid white;
+	width: 115px;
 } 
 div#slider{
 	width: 100%;
@@ -353,10 +360,85 @@ footer>p{
 }
 div#cambio{
 	/*border: 3px solid red;*/
+	height: auto;
+	/*margin-bottom: 50px;*/
 
 }
 /* QUIENES SOMOS*/
 img.banner{
 	margin: 15px 0 25px 0;
 	width: 100%;
+	
+}
+section.contenedor{
+	width: 1010px;
+	/*height: auto;*/
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+div.menuLateral,div.mostrar{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+div.mostrar{
+	width: 740px;
+}
+ul.menuL{
+	list-style: none;
+	margin: 0px;
+	
+}
+
+ul.menuL li a{
+	text-decoration: none;
+	background-color: #fafafa;
+	border:1px solid #666;
+	display: block;
+	width: 180px;
+	padding: 10px 0px 10px 30px;
+	color:#3a454d;
+	font-weight: bold;
+	-webkit-box-shadow: 1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+}
+ul.menuL li a:hover{
+	background-color: #5f6a72;
+	color:white;
+	
+}
+p.top_title{
+	display: inline-block;
+	margin: 30px 5px 20px 30px;
+	font-size: 20px;
+	color: #3a454d;
+	font-weight: bold;
+
+}
+span.linea2{
+	border-top: 1px solid #999;
+	width: 480px;
+	margin-top: -4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+figure.bann{
+	margin-left: 32px;
+}
+figure.bann img{
+	width: 670px;
+}
+p.textoN{
+	text-align: justify;
+	width: 670px;
+	margin-left: 32px; 
+	line-height: 1.4em;
+}
+p.textoT{
+	font-weight: bold;
+	margin-left: 32px; 
+	line-height: 1.4em;
 }
