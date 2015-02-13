@@ -1,7 +1,7 @@
 <div id="slider">
         <img src="img/img_silider.png" alt="slider 1"/>
     </div>
-
+<br>
     <section id="contenido">
         <div id="izq">
             <div id="titulo">
@@ -126,7 +126,7 @@
                     <div class="cuadrado">
                     </div>
                     <p class="title">
-                        <p class="va1">áca un título</p>
+                        <p class="va1">Lorem Ipsum</p>
                         <p class="va2">3 minutes ago</p>
                     </p>
                     
@@ -137,7 +137,7 @@
                     <div class="cuadrado">
                     </div>
                     <p class="title">
-                        <p class="va1">áca un título</p>
+                        <p class="va1">Lorem Ipsum</p>
                         <p class="va2">3 minutes ago</p>
                     </p>
                     
@@ -148,7 +148,7 @@
                     <div class="cuadrado">
                     </div>
                     <p class="title">
-                        <p class="va1">áca un título</p>
+                        <p class="va1">Lorem Ipsum</p>
                         <p class="va2">3 minutes ago</p>
                     </p>
                     

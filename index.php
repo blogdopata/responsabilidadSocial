@@ -23,14 +23,14 @@
 	<figure>
 		<img src="img/logo.png" alt="Responsabilidad Social">
 	</figure>	
-	<div id="buscador">
+	<!--<div id="buscador">
 		<input type="search">
-	</div>
+	</div>-->
 </header>
 
 <nav id="menu">
 	<ul>
-		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="index.php?pag=quehacemos" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="#" alt="#">PROYECTOS</a></li><li><a href="#" alt="#">PUBLICACIONES</a></li><li><a href="#" alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="#" alt="#">CONTÁCTENOS</a></li>
+		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="index.php?pag=quehacemos" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="index.php?pag=proyectos" alt="#">PROYECTOS</a></li><li><a href="#" alt="#">PUBLICACIONES</a></li><li><a href="index.php?pag=noticias" alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="index.php?pag=contactos" alt="#">CONTÁCTENOS</a></li>
 	</ul>
 </nav>
 
@@ -118,6 +118,8 @@
 		<p> © Copyright 2015 Universidad San Martin de Porres. Todos los derechos reservados</p>
 	</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
 
 </body>
 </html>
