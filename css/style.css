@@ -38,9 +38,20 @@ body
 
 aside#arriba
 {
-	background-color: #910b26;
+
+	
 	height: 50px;
 	width: 100%;
+	/*background-color: #910b26;*/
+	background:#2e4d70;
+	background: -moz-linear-gradient(left, #2e4d70 0%, #2d85a7 51%, #2d85a7 68%, #2d85a7 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%#2e4d70), color-stop(51%,#2d85a7), color-stop(68%,#2d85a7), color-stop(100%,#2d85a7));
+	background: -webkit-linear-gradient(left, #2e4d70 0%,#2d85a7 51%,#2d85a7 68%,#2d85a7 100%); 
+	background: -o-linear-gradient(left, #2e4d70 0%,#2d85a7 51%,#2d85a7 68%,#2d85a7 100%); 
+	background: -ms-linear-gradient(left, #2e4d70 0%,#2d85a7 51%,#2d85a7 68%,#2d85a7 100%); 
+	background: linear-gradient(to right, #2e4d70 0%,#2d85a7 51%,#2d85a7 68%,#2d85a7 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e4d70', endColorstr='#2d85a7',GradientType=1 ); 
+
 }
 aside #arriba_center
 {
@@ -55,14 +66,14 @@ a#home,  div#redes{
 }
 a#home
 {
-	background-color: #910b26;
+	/*background-color: #910b26;*/
 	border:1px solid white;
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	padding: 5px;
+	padding: 7px 12px;
 	text-transform: uppercase;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 10px;
 	font-size: 0.8em;
 	font-family: 'letra1';
 	font-weight: bold;
@@ -77,23 +88,29 @@ a#home:hover{
 	-o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }	
-
+/*
 div#redes
 {
 	float: right;
-	/*border: 1px solid blue;*/
+	/*border: 1px solid blue;
 	margin:8px 10px 0px 0px;
 }
 #rss img, #twitter img , #face img, #utube img{
 	display: inline-block;
-	/*border: 1px solid yellow;*/
+	/*border: 1px solid yellow;
 	width: 32px;
 }
+*/
+aside#lol{
+	position: absolute;
+	top:310px;
+	border: 0px solid red;
 
+}
 header
 {
 	/*height: 192px;*/
-	width: 790px;
+	width: 900px;
 	margin: 0 auto;
 /*	border: 1px solid green;*/
 }
@@ -102,7 +119,7 @@ header figure{
 }
 header figure img
 {
-	width: 310px;
+	width: 390px;
 	margin: 30px 0px 30px 0px;
 	
 	/*border: 1px solid red;*/
@@ -115,6 +132,28 @@ header div#buscador
 	vertical-align: top;
 	margin: 40px 0px 0px 0px;
 }
+header div#buscador input[type="search"]{
+	width: 210px;
+	border: 2px solid #cdc7c9;
+	border-radius:5px; 
+	height:26px;
+	font-family: "letra2";
+	font-size: 12px;
+
+	background-position: right center;
+	padding-left: 5px;
+	background-image: url(../img/lupa.png);
+	background-repeat: no-repeat;
+}
+
+header div#buscador input[type="search"]:focus {
+	background-position: right center;
+	background-image: url(../img/lupa.png);
+	background-repeat: no-repeat;
+
+}
+
+
 nav#menu{
 	/*border: 1px solid red;*/
 	width: 1100px;
@@ -133,17 +172,17 @@ nav#menu ul li a{
 	text-align: center;
 	text-decoration: none;
 	font-size: 0.7em;
-	background-color:#176990; 
+	background-color:#c69c6d; 
 	display: block;
 	color: white;
 	padding: 18px;
 	border: 1px solid white;
-	width: 115px;
+	width: 120px;
 	font-family: 'letra1';
 	font-weight: bold;
 } 
 nav#menu ul li a:hover{
-	background-color: #910B26;
+	background-color: #00af4d;
 	-webkit-transition: all 500ms ease-out;
 	-moz-transition: all 500ms ease-out;
 	-ms-transition: all 500ms ease-out;
@@ -153,7 +192,7 @@ nav#menu ul li a:hover{
 
 }
 div#slider{
-	width: 100%;
+	width: 1010px;
 	/*border: 1px solid red;*/
 	margin: 0 auto;
 
@@ -408,7 +447,7 @@ p#texto{
 }
 
 footer{
-	background-color: #910b26;
+	background-color: #00af4d;
 	height: 50px;
 	width: 100%;
 	border-top: 1px solid white;
@@ -430,8 +469,10 @@ div#cambio{
 }
 /* QUIENES SOMOS*/
 img.banner{
-	margin: 1px 0 25px 0;
-	width: 100%;
+	display: block;
+	margin: 0px auto 25px auto;
+	width: 1010px;
+	padding-left: 30px;
 	
 }
 section.contenedor{
@@ -589,8 +630,8 @@ form div.spaceF{
 .mostrar div#show{
 	/*background-color: red;*/
 	overflow: hidden;
-	border-top:1px solid #514e4e;
-	border-bottom: 1px solid #514e4e;
+	border-top:1px solid #94b963;
+	border-bottom: 1px solid #94b963;
 	font-family: 'letra1';
 	margin-top: 40px;
 
@@ -641,4 +682,58 @@ div#mostrar1 figure figcaption{
 	font-size: 14px;
 	color: gray;
 	font-weight: bold;
+}
+
+div#mostrar2{
+	/*border: 1px solid red;*/
+	width: 700px;
+	padding-bottom: 30px;
+}
+
+div#mostrar2 .post_book{
+	/*border: 1px solid blue;*/
+	margin: 20px 0px 10px 30px;
+}
+div.img_desc{
+	width: 460px;
+	vertical-align: top;
+	/*border: 1px solid gray;*/
+	margin: 145px 0px 0px 5px;
+
+}
+
+figure.img_book, div.img_desc{
+	display: inline-block;	
+}
+p.titleTex{
+	font-family: "letra1";
+	color: #910b26;
+}
+p.descTex{
+	font-family: "letra1";
+}
+
+div#mostrar2 div#paginacion{
+	/*background: red;*/
+	margin-top:40px;
+
+}
+div#paginacion ul{
+	list-style: none;
+	/*border: 1px solid blue;*/
+	width: 220px;
+	padding:0;
+	margin: 0 auto;
+}
+div#paginacion ul li {
+	display: inline-block;
+
+}
+div#paginacion ul li a{
+	display: block;
+	width: 20px;
+	/*background: green;*/
+	text-align: center;
+	color: #3a454d;
+	font-family: "letra1";
 }

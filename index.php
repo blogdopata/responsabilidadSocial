@@ -7,30 +7,37 @@
 	
 </head>
 <body>
+<aside id="lol">
+    <div id="face"><a href="#"><img src="img/face.png"></a></div>
+    <div id="twitter">
+        <a href="#"><img src="img/twitter.png"></a>
+    </div>
+    <div id="utube"><a href="#"><img src="img/utube.png"></a></div>
+</aside>
 <aside id="arriba">
 	<div id="arriba_center">
 		<a href="index.php?pag=inicio" id="home">inicio</a>
-		<div id="redes">
-			<a href="#" id="rss"><img src="img/rss.png"></a>
+		<!--<div id="redes">
+			<img src="img/rss.png"></a>
 			<a href="#" id="utube"><img src="img/utube.png"></a>
 			<a href="#" id="face"><img src="img/face.png"></a>	
 			<a href="#" id="twitter"><img src="img/twitter.png"></a>
-		</div>
+		</div>-->
 	</div>
 </aside>
-
+<!-- un fail ( ͡ ͡° ͜ ʖ ͡ ͡°) ( ͡ ͡° ͜ ʖ ͡ ͡°) -->
 <header>
 	<figure>
-		<img src="img/logo.png" alt="Responsabilidad Social">
+		<img src="img/logo_usmp.png" alt="Responsabilidad Social">
 	</figure>	
-	<!--<div id="buscador">
-		<input type="search">
-	</div>-->
+	<div id="buscador">
+		<input type="search" placeholder="Encuentra aquí lo que buscas">
+	</div>
 </header>
 
 <nav id="menu">
 	<ul>
-		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="index.php?pag=quehacemos" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="index.php?pag=proyectos" alt="#">PROYECTOS</a></li><li><a href="#" alt="#">PUBLICACIONES</a></li><li><a href="index.php?pag=noticias" alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="index.php?pag=contactos" alt="#">CONTÁCTENOS</a></li>
+		<li><a href="index.php?pag=quienes" alt="#">¿QUIÉNES SOMOS?</a></li><li><a href="index.php?pag=quehacemos" alt="#">¿QUÉ HACEMOS?</a></li><li><a href="index.php?pag=proyectos" alt="#">PROYECTOS</a></li><li><a href="index.php?pag=publicacion" alt="#">PUBLICACIONES</a></li><li><a href="index.php?pag=noticias" id="menuFix"alt="#">NOTICIAS Y EVENTOS</a></li><li><a href="index.php?pag=contactos" alt="#">CONTÁCTENOS</a></li>
 	</ul>
 </nav>
 

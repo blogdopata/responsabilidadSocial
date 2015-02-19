@@ -1,5 +1,5 @@
 
-<img src="img/bannQ3.png" class="banner">
+<img src="img/bannQ5.png" class="banner">
 <section class="contenedor">
 	
 	<div class="menuLateral">

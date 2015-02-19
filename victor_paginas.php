@@ -7,6 +7,7 @@ $paginas = array(
 	"proyectos" => "proyectos.php",
 	"noticias" => "noticias.php",
 	"contactos" => "contactos.php",
+	"publicacion" => "publicaciones.php",
 );
 
 
