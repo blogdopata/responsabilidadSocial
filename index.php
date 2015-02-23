@@ -125,7 +125,7 @@
 		<p> © Copyright 2015 Universidad San Martin de Porres. Todos los derechos reservados</p>
 	</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+<script src="js/vcjs.js"></script>
 
 
 </body>

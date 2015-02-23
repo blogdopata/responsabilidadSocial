@@ -103,8 +103,15 @@ div#redes
 */
 aside#lol{
 	position: absolute;
-	top:310px;
+	top:330px;
 	border: 0px solid red;
+	width: 20px;
+}
+
+div#face a img,div#twitter  a img, div#utube a img{
+	/*border:2px solid red;*/
+	display: block;
+	width: 50px;
 
 }
 header
@@ -491,6 +498,7 @@ div.menuLateral,div.mostrar{
 div.mostrar{
 	/*width: auto;*/
 	padding-right: 20px;
+	margin-bottom: 50px;
 }
 ul.menuL{
 	list-style: none;
@@ -545,6 +553,15 @@ p.textoN{
 	margin-left: 32px; 
 	line-height: 1.4em;
 	font-family: 'letra1';
+}
+p.textoN-in{
+	text-align: center;
+	width: 670px;
+	margin-top: 30px;
+	margin-left: 32px; 
+	line-height: 1.4em;
+	font-family: 'letra1';
+	font-weight: bold;
 }
 p.textoT{
 	font-weight: bold;
