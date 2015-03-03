@@ -1,6 +1,30 @@
 <div id="slider">
-        <img src="img/img_silider.png" alt="slider 1"/>
-    </div>
+       <!--  <img src="img/img_silider.png" alt="slider 1"/> -->
+       <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li>
+                        <img src="img/img_1.jpg" id="wows1_0" alt="img_1" />
+                    </li>
+                    <li>
+                        <img src="img/img_2.jpg" id="wows1_1" alt="img_2" />
+                    </li>
+                    <li>
+                        <img src="img/img_3.jpg" id="wows1_2" alt="img_3"  />
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ws_bullets"><div>
+                <a href="#" title="img_1"><img src="data1/tooltips/img_1.jpg" alt="img_1"/>1</a>
+                <a href="#" title="img_2"><img src="data1/tooltips/img_2.jpg" alt="img_2"/>2</a>
+            </div>
+        </div>
+<a class="wsl" href="http://wowslider.com">Css Javascript Image Gallery by WOWSlider.com v3.2</a>
+    <div class="ws_shadow"></div>
+        </div>
+       
+</div> <!-- Fin slider -->
 <br>
     <section id="contenido">
         <div id="izq">
